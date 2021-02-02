@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "no_of",
+  "version": "${version}",
+  "name": "No More OF Capes",
+  "description": "No more pesky Optifine accessories.",
+  "authors": [
+    "Eilux"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/no_of/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.bodner.jack.no_of.client.NoOptifineCapesClient"
+    ]
+  },
+  "mixins": [
+    "no_of.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*",
+    "optifabric": "*"
+  }
+}
